@@ -238,7 +238,8 @@ namespace Okolni.Source.Query
             }
             catch (Exception ex)
             {
-                throw new SourceQueryException("Could not gather Info", ex);
+                //throw new SourceQueryException("Could not gather Info", ex);
+                return null;
             }
         }
 
