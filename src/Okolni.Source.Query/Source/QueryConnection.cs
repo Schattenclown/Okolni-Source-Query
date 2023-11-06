@@ -236,7 +236,7 @@ namespace Okolni.Source.Query
 
                 return res;
             }
-            catch (Exception ex)
+            catch
             {
                 //throw new SourceQueryException("Could not gather Info", ex);
                 return null;
