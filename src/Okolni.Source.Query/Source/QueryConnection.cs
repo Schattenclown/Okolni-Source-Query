@@ -298,7 +298,8 @@ namespace Okolni.Source.Query
             }
             catch (Exception ex)
             {
-                throw new SourceQueryException("Could not gather Players", ex);
+                //throw new SourceQueryException("Could not gather Players", ex);
+                return null;
             }
         }
 
